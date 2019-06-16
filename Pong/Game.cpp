@@ -10,6 +10,7 @@ Game::Game()
 	, mIsRunning(true)
 	, mPaddlePos(Vector2{10, WINDOW_HEIGHT / 2.0f})
 	, mBallPos(Vector2{WINDOW_WIDTH / 2.0f, WINDOW_HEIGHT / 2.0f})
+	, mBallVel(Vector2{-200, 235})
 	, mTicksCount(0)
 	, mPaddleDir(0) {}
 
